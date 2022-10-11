@@ -1,0 +1,65 @@
+body, html {
+	line-height: 1.8;
+	font-family: 'Roboto', sans-serif;
+	color: #555e58;
+	font-weight: 400;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4{
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+.bg-primary {
+	background-color: #2e6930!important;
+}
+
+.imgcontainer1 {
+  text-align: center;
+  margin: 0px 0 25px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 0px #000;
+  overflow: hidden;
+}
+
+.form-container {
+  margin-left: auto;
+ 	margin-right: auto;
+  display: table;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px #000;
+}
+
+.card-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.password-container{
+  position: relative;
+}
+.password-container input[type="password"],
+.password-container input[type="text"]{
+  width: 100%;
+  padding: 12px 36px 12px 12px;
+  box-sizing: border-box;
+}
+.fa-eye-slash	{
+  position: absolute;
+  top: 48%;
+  right: 4%;
+  cursor: pointer;
+  color: #aaa;
+}
